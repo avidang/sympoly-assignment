@@ -17,4 +17,4 @@ app.add_middleware(
 # Add routes
 @app.get("/")
 async def root():
-    return {"message": "Hello World2"}
+    return {"message": "Hello World"}
